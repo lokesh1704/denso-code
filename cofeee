@@ -1,0 +1,23 @@
+#include<stdio.h>
+int discount(x,p)
+{
+int tamount;
+float disc,pdisc;
+tamount=0;
+pdisc=(x*p)/100;
+disc=x-pdisc;
+tamount=tamount+disc;
+while(disc>0)
+discount(disc,p):
+while(disc<0)
+return tamount;
+}
+int main()
+{
+int x,p;
+float free;
+scanf("%d%d",&x,&p);
+free=discount(x,p);
+printf("%f",free);
+}
+
